@@ -73,6 +73,21 @@ body {
 }
 
 .footer {
-  height: 30px;
-  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 12px;
+  max-height: 5vh;
+}
+
+.footer-item {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer-item:hover {
+  text-decoration: underline;
 }
