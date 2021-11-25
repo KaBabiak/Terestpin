@@ -4,6 +4,54 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
 }
+
+.terms-overlay {
+  background-color: rgba(121, 105, 105, 0.3);
+  height: 100vh;
+  width: 100vw;
+  z-index: 200;
+  position: fixed;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.terms {
+  background-color: white;
+  height: 70vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.terms-text {
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 30vw;
+  overflow-y: scroll;
+}
+.terms-buttons {
+  height: 10vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accept-terms {
+  background-color: dodgerblue;
+  margin: 10px 10px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.accept-terms:hover {
+  background-color: rgb(110, 190, 214);
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -90,4 +138,13 @@ body {
 
 .footer-item:hover {
   text-decoration: underline;
+}
+
+.overlay {
+  background-color: rgba(121, 105, 105, 0.3);
+  height: 100vh;
+  width: 100vw;
+  z-index: 200;
+  position: fixed;
+  display: none;
 }
