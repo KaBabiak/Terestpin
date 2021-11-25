@@ -1,13 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terestpin</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async defer type="module"></script>
   </head>
   <body>
+    <div id="terms" class="terms-overlay">
+      <div class="terms">
+        Regulamin
+        <div class="terms-text">
+          <ol>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, ad eaque incidunt unde nostrum iure vitae
+              consequuntur ullam.
+            </li>
+            <li>
+              Libero ratione doloremque non vero error quas est dignissimos
+              quisquam, vel eaque! Tempore inventore iure debitis ullam
+              laudantium.
+            </li>
+            <li>
+              Rem nesciunt adipisci ullam laudantium quaerat placeat ratione
+              vero recusandae tenetur sit, amet qui ad nobis unde delectus?
+            </li>
+            <li>
+              Corrupti consectetur voluptas quasi eaque quaerat illo ipsum minus
+              provident doloribus quibusdam! Doloribus a impedit molestias
+              asperiores? Doloribus.
+            </li>
+            <li>
+              Corporis provident eos id, libero rem assumenda, cum minus iusto
+              nam maxime hic suscipit. Repellendus nobis officiis culpa.
+            </li>
+            <li>
+              Velit omnis dolor nobis recusandae. Natus, sunt quaerat tenetur
+              quisquam odit et, saepe minus asperiores tempora quod ratione.
+            </li>
+            <li>
+              Assumenda quae mollitia reprehenderit neque modi deserunt unde
+              placeat molestias culpa atque! Nostrum totam vero dolor nulla
+              ullam?
+            </li>
+            <li>
+              Architecto rerum cum minus neque pariatur recusandae officiis,
+              delectus quam suscipit dicta eligendi, eos saepe facere iusto.
+              Dolore!
+            </li>
+            <li>
+              Animi id assumenda, consequatur dolores minus tempora enim illum?
+              Libero, hic iusto praesentium beatae commodi repellendus nisi
+              dolor.
+            </li>
+            <li>
+              Voluptatem exercitationem laboriosam repellendus esse eum,
+              reiciendis necessitatibus ea! Blanditiis, atque consequuntur odio
+              molestiae delectus aliquam officia reiciendis?
+            </li>
+            <li>
+              Facilis, laboriosam. Est sed enim, debitis ipsum aliquid deleniti,
+              ipsa illo delectus exercitationem officia velit minima aspernatur
+              corrupti.
+            </li>
+            <li>
+              Possimus, minima nam recusandae, magni eius cupiditate sapiente
+              alias aliquid reprehenderit beatae repellat, maiores accusantium
+              amet sint rem.
+            </li>
+            <li>
+              Possimus, adipisci rerum, tenetur repellendus deleniti eum nulla,
+              aspernatur laborum aut perferendis eius mollitia fuga cupiditate
+              iste eos!
+            </li>
+            <li>
+              Voluptates optio neque enim sequi at. Voluptatum quidem
+              perferendis ab magnam quasi recusandae deleniti aut harum pariatur
+              reprehenderit.
+            </li>
+            <li>
+              In totam dolore culpa nemo. Dolorem reprehenderit minima culpa
+              rerum obcaecati? Omnis officia, voluptatem accusantium saepe
+              debitis est.
+            </li>
+            <li>
+              Sapiente, amet praesentium consequuntur sit non repudiandae
+              debitis quam aut, accusamus nam rerum fugit, ea reprehenderit in
+              nisi!
+            </li>
+            <li>
+              Vero iusto, debitis dolorem voluptates totam veniam eum porro
+              beatae tempora quisquam nesciunt quas, quae aspernatur amet
+              itaque!
+            </li>
+            <li>
+              Omnis debitis tenetur dolorem non possimus deserunt, facere
+              molestias voluptatibus perferendis officiis perspiciatis aperiam
+              fugiat a porro illum!
+            </li>
+            <li>
+              Minus reiciendis distinctio impedit commodi ea harum! Nulla
+              distinctio quidem aliquid repudiandae laboriosam optio obcaecati
+              eius. A, sunt.
+            </li>
+            <li>
+              Beatae cupiditate cumque qui suscipit totam eius praesentium,
+              quasi, deserunt debitis voluptates et architecto placeat sequi
+              unde soluta?
+            </li>
+          </ol>
+        </div>
+        <div class="terms-buttons">
+          <button
+            id="accept"
+            type="button"
+            href="index.html"
+            class="accept-terms"
+          >
+            Akceptuj
+          </button>
+          <button type="button" href="index.html" class="accept-terms">
+            Odrzuć
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="overlay" class="overlay"></div>
     <div class="navbar">
       <div class="logo">
         <img src="assets/images/logo.svg" alt="Logo" />
@@ -16,7 +137,7 @@
         <a href="index.html" class="menu-item">Informacje</a>
         <a href="index.html" class="menu-item">Dla firm</a>
         <a href="index.html" class="menu-item">Blog</a>
-        <button type="button" href="index.html" class="login">
+        <button id="login" type="button" href="index.html" class="login">
           Zaloguj się
         </button>
         <button type="button" href="index.html" class="signup">
@@ -26,8 +147,10 @@
     </div>
     <div class="content">
       <div class="column">
-        <div class="image"></div>
-        <div class="image"></div>
+        <img class="image" src="assets/images/baloon.jpg" alt="baloon" />
+        <div class="image">
+          <img src="assets/images/baloon.jpg" alt="baloon" />
+        </div>
         <div class="image"></div>
         <div class="image"></div>
       </div>
