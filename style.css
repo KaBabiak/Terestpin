@@ -98,6 +98,51 @@ body {
   border: 0;
   cursor: pointer;
 }
+
+.slider {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 100vw;
+}
+.find {
+  font-size: 60px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.text {
+  font-size: 60px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+}
+.slide-dot {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 7px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 .content {
   display: flex;
   height: 1000px;
