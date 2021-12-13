@@ -103,7 +103,7 @@ body {
   display: flex;
   justify-content: center;
   height: 200px;
-  width: 100vw;
+  width: 100%;
 }
 .find {
   font-size: 60px;
@@ -145,21 +145,21 @@ body {
 }
 .content {
   display: flex;
-  height: 1000px;
-  margin: 0px 30px;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  width: calc(100% / 7);
   height: 100%;
-  margin: 0 5px;
+  margin: 0 15px;
 }
 
 .image {
-  width: 100%;
-  height: calc(100% / 4);
+  width: 213px;
+  height: 320px;
   background-color: salmon;
   border-radius: 15%;
   margin: 5px 0px;
